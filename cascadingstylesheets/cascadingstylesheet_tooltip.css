@@ -1,0 +1,28 @@
+/* Last edit: 2024-12-09, 13:12 IST */
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	background: rgba(59, 48, 48, 0.9);
+	color: rgba(255, 240, 209, 0.7);
+	text-align: center;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 45%;
+}
+
+.tooltiptext {
+	border: 1px dotted black;
+	border-radius: 5px;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}

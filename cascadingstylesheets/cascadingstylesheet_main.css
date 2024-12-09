@@ -1,0 +1,101 @@
+/* Last edit: 2024-11-29, 14:10 IST */
+
+* {
+	margin: 1px;
+	padding: 0px;
+	background: rgba(59, 48, 48, 0.9);
+	color: rgba(255, 240, 209, 0.7);
+	font-family: monospace;
+}
+
+header, section, footer {
+	margin: 5px;
+}
+
+header, footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+}
+
+a:link {
+/*  text-decoration: none; */
+}
+
+a:visited {
+/*  text-decoration: none; */
+}
+
+a:active {
+/*  text-decoration: underline; */
+}
+
+.a_arrow {
+	padding: 0px 5px;
+	border: 1px solid rgba(255, 240, 209, 0.7);
+}
+
+#id_span_sticky_buttons {
+	position: fixed;
+	right: 0px;
+	z-index: 1;
+	margin-right: 10px;
+}
+
+button {
+	background-color: rgba(59, 48, 48, 0.9);
+	color: rgba(255, 240, 209, 0.7);
+	border: 1px solid rgba(255, 240, 209, 0.7);
+}
+
+a:hover, button:hover, .active, .collapsible:hover {
+	color: rgba(255, 255, 255, 0.9);
+	cursor: pointer;
+}
+
+section span {
+	display: inline-block;
+	padding: 10px;
+}
+
+hr, table, th, td {
+	border: 1px solid rgba(255, 240, 209, 0.7);
+}
+
+table {
+	margin: 0px 0px;
+	width: 100%;
+}
+
+table, th, td {
+	border-collapse: collapse;
+}
+
+th {
+	font-weight: bolder;
+	background-color: rgba(255, 240, 209, 0.7);
+	color: rgba(59, 48, 48, 0.9);
+}
+
+th, td {
+	padding: 5px;
+	vertical-align: top;
+}
+
+tfoot td, tbody th, .td_caption {
+	text-align: center;
+}
+
+tr th:nth-of-type(1) {
+	/*width: 1%;*/
+	white-space: nowrap;
+}
+
+.td_textcrossed {
+	text-decoration: line-through;
+}
+
+img {
+	max-width: 80%;
+}
