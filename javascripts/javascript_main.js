@@ -1,5 +1,3 @@
-/* Last edit: 2024-12-09, 19:02 IST */
-
 /* -------------------- Top-Bottom Buttons -------------------- */
 /* Top button */
 function scrollToHeader () {
@@ -10,3 +8,5 @@ function scrollToHeader () {
 function scrollToFooter () {
 	window.scrollTo('0',document.body.scrollHeight);
 }
+
+/* Last edit: 2024-12-10, 14:43 IST */
